@@ -1,0 +1,23 @@
+{
+  "name": "sk2b58",
+  "version": "1.0.0",
+  "description": "Quickly convert a json u8 array into base58 - useful for exporting Solana json keypairs to base58 for import into other wallets",
+  "main": "./lib/cli.js",
+  "bin": {
+    "sk2b58": "./lib/cli.js"
+  },
+  "scripts": {
+    "compile": "tsc -p ."
+  },
+  "author": "schwarzbi3r",
+  "license": "MIT",
+  "dependencies": {
+    "base58-js": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
